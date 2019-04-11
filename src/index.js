@@ -38,7 +38,8 @@ const server = new ApolloServer({
   dataSources,
   introspection: true,
   playground: {
-    endpoint: `https://operacionesanidadas.herokuapp.com`
+    //endpoint: `https://operacionesanidadas.herokuapp.com` habilitar produccion
+    endpoint: `http://localhost:4000`
   }
 });
 if (process.env.NODE_ENV !== "test")

@@ -9,7 +9,7 @@ class AutorAPI extends DataSource {
   }
   async todosAutores() {
     const autores = await this.autor.autorModel.find({});
-    console.log(autores.libros);
+    
     return autores;
   }
   esNuevo({ _id }) {
@@ -35,7 +35,7 @@ class AutorAPI extends DataSource {
       return autorlibro;
     });
     //revisar https://medium.freecodecamp.org/graphql-zero-to-production-a7c4f786a57b
-    console.log(autorlibro);
+    
   }
 }
 module.exports = AutorAPI;

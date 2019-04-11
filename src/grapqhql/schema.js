@@ -6,7 +6,7 @@ const typeDefs = gql`
   }
   type Autor {
     nombreautor: String
-    libro: [Libro]
+    libros: [Libro]
   }
   type Query {
     autores: [Autor]
