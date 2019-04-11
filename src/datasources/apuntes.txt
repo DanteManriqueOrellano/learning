@@ -1,0 +1,4 @@
+los data sources son clases que heredan de 
+la clase DataSource de apollo. Estas clases
+se construyen para poder manipular a un grupo 
+de objetos del mismo tipo, por ejemplo "user".

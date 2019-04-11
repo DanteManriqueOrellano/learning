@@ -1,0 +1,8 @@
+los modelos son funciones que nos permiten 
+construir el modelo para mongoose
+Estos modelos posteriormente nos serviran
+para la manipulacion de datos
+se declaran de la siguiente manera
+module.exports.<nombredelaFuncion>=()=>{}
+y debe retornar un objeto del tipo model
+return {<nombredelmodelo>}
