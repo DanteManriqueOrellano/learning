@@ -1,8 +1,7 @@
 module.exports = {
   Query: {
     autores: async (_,__, { dataSources }) => {
-      const autores = await dataSources.autorapi.todosAutores();
-      
+      const autores = await dataSources.autorapi.todosAutores();  
       return autores;
     }
   },
