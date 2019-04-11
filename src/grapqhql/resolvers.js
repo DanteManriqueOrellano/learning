@@ -10,11 +10,7 @@ module.exports = {
       const autor = await dataSources.autorapi.agregarAutor({ nombreautor });
       return autor;
     },
-    nuevoAutorLibro: async (
-      _,
-      { nombreautor, nombrelibro },
-      { dataSources }
-    ) => {
+    nuevoAutorLibro: async (_,{ nombreautor, nombrelibro},{ dataSources }) => {
       const autor = await dataSources.autorapi.agregarAutorYLibro({
         nombreautor,
         nombrelibro
